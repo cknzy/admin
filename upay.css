@@ -634,11 +634,6 @@ Icon Playback Rates and subtitle settings.
 .jw-svg-icon-playback-rate path {
   color: var(--bg-white);
 }
-
-.jwplayer.jw-skin-netflix .jw-settings-menu .jw-submenu-topbar {
-  display: none;
-}
-
 /*
 Responsive player jw8.
 */

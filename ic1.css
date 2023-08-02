@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap");
+:root {
+  --bg-red: #e50914;
+  --bg-white: #f7f7f7;
+  --bg-black: #181919;
+}
+/* RESET CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+/* ADBlock Modal */
+.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 999;
+  font-family: "Rubik", Arial, sans-serif;
+}
+
+.modal .modal-container {
+  width: 60rem;
+  padding-bottom: 10rem;
+  background-color: var(--bg-black);
+  color: var(--bg-white);
+  border-radius: 0.3rem;
+}
+
+.modal .modal-container .modal-header {
+  position: relative;
+  border-radius: 0.3rem;
+  height: 30rem;
+}
+
+.modal .modal-container .modal-header strong {
+  position: absolute;
+  text-align: center;
+  top: 12rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--bg-white);
+}
+
+.modal .modal-container .modal-header::before {
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(
+    0deg,
+    var(--bg-black),
+    rgba(24, 25, 25, 0.3) 150%
+  );
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.modal .modal-container .modal-header::after {
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(
+    0deg,
+    var(--bg-black),
+    rgba(24, 25, 25, 0.3) 100%
+  );
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.modal .modal-container .modal-header .backdrop {
+  width: 100%;
+  height: 30rem;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.modal .modal-container .modal-header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 3.6rem;
+  height: 3.6rem;
+  background: var(--bg-black);
+  border: 0;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 999;
+}
+
+.modal .modal-container .modal-header button:hover {
+  opacity: 0.75;
+}
+
+.modal .modal-container .modal-header button img {
+  display: block;
+  width: 2.7rem;
+}
+
+.modal .modal-container .modal-body {
+  max-width: 50rem;
+  margin: 0 auto;
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.modal .modal-container .modal-body span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+}
+
+  

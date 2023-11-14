@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<html lang="km">    
+<head>
+  <head>
+    <link href='https://imov.lol/assets/css/style.css' rel='stylesheet'/> 
+	<title>The.Blood.Of.Yuth.EP1</title>
+	</head>
+<body>
+  <script src='https://cdn.jwplayer.com/libraries/IDzF9Zmk.js' type='text/javascript'></script>
+  <style>
+  #player {
+    position: absolute;
+  }
+</style>
+	<!-- Player -->
+<div id="player"></div>
+<script>
+  const playerInstance = jwplayer("player").setup({
+  controls: true,
+  sharing: false,
+  displaytitle: false,
+  displaydescription: true,
+
+  skin: {
+    name: "netflix"
+  },
+  logo: {
+    file:
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+    link: "https://www.buymeacoffee.com/pingo"
+  },
+  playlist: [
+    {
+      title: "kamakh.com",
+      description: "The Blood Of Yuth EP1",
+      image: "https://i.imgur.com/FzFOqzO.jpg",
+      sources: [
+      {
+          file:
+            "https://x76adrtxyy.guardstorage.net/mp4/yzfxpjastr/cZS4ul4YCi4qQh74qw1e1gEt3wwJ8TDQh92PsEaltdQ/v.mp4?sig=5JBG1ObknuA_vO0sFOXadA&expires=1699949472",
+          label: "Auto",
+          default: true
+        }],
+        captions: [
+        {file:"https://res.cloudinary.com/do1zdkwaj/raw/upload/v1680497541/Blood/the%20lak/sakra-en_gb14a5.srt",
+          label: "English",
+          kind: "captions",
+          default: true
+        },
+        {
+        file:"https://res.cloudinary.com/do1zdkwaj/raw/upload/v1680497541/Blood/the%20lak/sakra-km_fso78u.srt",
+          label: "Khmer",
+          kind: "captions"
+        },
+        {
+        file:"https://res.cloudinary.com/do1zdkwaj/raw/upload/v1680497541/Blood/the%20lak/sakra-th_pd1cc9.srt",
+          label: "Thai",
+          kind: "captions"
+        },
+        { file:"https://res.cloudinary.com/do1zdkwaj/raw/upload/v1680497541/Blood/the%20lak/sakra-id_ftyl4z.srt",
+          label: "Indonesia",
+          kind: "captions"
+        }],
+    }
+  ],
+  advertising: {
+    client: "vast",
+  }
+});
+</script>
+</body>
+  </html>
+  

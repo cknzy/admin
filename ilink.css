@@ -12,6 +12,7 @@
 .plyr--full-ui ::-webkit-media-text-track-container{display:none}
 .plyr__captions{animation:plyr-fade-in .3s ease;bottom:0;display:none;font-size:13px;font-size:var(--plyr-font-size-small,13px);left:0;padding:10px;padding:var(--plyr-control-spacing,10px);position:absolute;text-align:center;transition:transform .4s ease-in-out;width:100%}
 .plyr__captions span:empty{display:none}
+
 @media(min-width:480px){
 .plyr__captions{font-size:15px;font-size:var(--plyr-font-size-base,15px);padding:20px;padding:calc(var(--plyr-control-spacing,10px)*2)}}
 

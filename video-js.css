@@ -569,9 +569,8 @@ body.vjs-pip-window .video-js{
 .vjs-menu-button-popup .vjs-menu.vjs-lock-showing,
 .vjs-workinghover .vjs-menu-button-popup.vjs-hover .vjs-menu{display:block}
 
-.video-js .vjs-menu-button-inline{
-    transition:all .4s;
-    overflow:hidden
+.video-js .vjs-menu-button-inline:before {
+    font-size: 24px!important
 }
 
 .video-js .vjs-menu-button-inline:before{width:2.222222222em}
@@ -580,21 +579,19 @@ body.vjs-pip-window .video-js{
 .video-js .vjs-menu-button-inline:focus,
 .video-js .vjs-menu-button-inline:hover{width:12em}
 
-.vjs-menu-button-inline .vjs-menu{
-    opacity:0;
-    height:100%;
-    width:auto;
-    position:absolute;
-    left:4em;
-    top:0;
-    padding:0;
-    margin:0;
-    transition:all .4s
+.video-js .vjs-menu-button-inline.vjs-slider-active {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none
 }
 
-.vjs-menu-button-inline.vjs-slider-active .vjs-menu,
-.vjs-menu-button-inline:focus .vjs-menu,
-.vjs-menu-button-inline:hover .vjs-menu{display:block;opacity:1}
+.video-js .vjs-menu-button-inline.vjs-slider-active,
+.video-js .vjs-menu-button-inline:focus,
+.video-js .vjs-menu-button-inline:hover,
+.video-js.vjs-no-flex .vjs-menu-button-inline {
+    width: 12em
+}
 
 .vjs-menu-button-inline .vjs-menu-content{
     width:auto;
@@ -774,17 +771,17 @@ body.vjs-pip-window .video-js{
     background-color:rgba(0,0,0,.8)
 }
 
-.video-js .vjs-slider{
-    position:relative;
-    cursor:pointer;
-    padding:0;
-    margin:0 .45em 0 .45em;
-    -webkit-touch-callout:none;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    user-select:none;
-    background-color:#73859f;
-    background-color:rgba(115,133,159,.5)
+.video-js .vjs-slider {
+    outline: 0;
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    margin: 0 1em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgba(115, 133, 159, .5)
 }
 
 .video-js .vjs-slider.disabled{cursor:default}

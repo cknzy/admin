@@ -1942,7 +1942,7 @@ body.vjs-full-window{
     top:-3em;
     visibility:hidden;
     white-space:nowrap;
-    z-index:1
+    z-index:1;display:none
 }
 
 .video-js .vjs-progress-holder:focus .vjs-time-tooltip{

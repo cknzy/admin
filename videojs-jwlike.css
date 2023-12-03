@@ -1472,7 +1472,11 @@ body.vjs-full-window{
 }
 
 .video-js .vjs-big-play-button{
-    display: block;height: 80px;width: 80px;background-color: white;}
+  -webkit-border-radius:10%
+    border-radius:10%;
+    cursor:pointer;
+    display:block;   
+}
 
 .filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
     height:80px;

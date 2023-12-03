@@ -1472,29 +1472,24 @@ body.vjs-full-window{
 }
 
 .video-js .vjs-big-play-button{
-    -webkit-border-radius:10%
+    -webkit-border-radius:10%;
     border-radius:10%;
     cursor:pointer;
     display:block;
     -webkit-filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
-}
-
-.filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
-    height:80px;
-    left:50%;
-    opacity:1.
+    filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
+    height:80px;left:50%;
+    opacity:1;
     pointer-events:auto;
     position:absolute;
-    text-align:center;
-    top.:50%;
-    -webkit-transform:translate(-50%,-50%);
-    transform:translate(-50%,-50%);
-    -webkit-transition:opacity .4s;
-    transition:opacity .4s;
-    visibility:visible;
+    text-align:center;top:50%;
+    -webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);
+    -webkit-transition:op
+    acity .4s;transition:opacity .4s;visibility:visible;
     width:80px;
     z-index:3;
     z-index:5
+
 }
 
 .video-js .vjs-big-play-button:before{

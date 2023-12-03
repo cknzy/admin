@@ -1164,7 +1164,7 @@ body.vjs-full-window{
     z-index:2}
 
 .vjs-control-text:after{
-    background-color:#fff;
+    background-color:#000;
     border-radius:1px;
     content:"";
     display:block;

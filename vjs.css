@@ -2671,7 +2671,7 @@ body.vjs-full-window{
 
 .vjs-control-text,
 .vjs-icon-placeholder{
-.   pointer-events:none
+    pointer-events:none
 }
 
 .video-js .vjs-menu .vjs-menu-content{

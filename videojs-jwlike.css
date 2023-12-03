@@ -1472,11 +1472,7 @@ body.vjs-full-window{
 }
 
 .video-js .vjs-big-play-button{
-    -webkit-border-radius:10%
-border-radius:10%;
-    cursor:pointer;
-    display:block;
-    -webkit-filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
+    display: block;height: 80px;width: 80px;background-color: white;}
 
 .filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
     height:80px;

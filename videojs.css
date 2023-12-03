@@ -2,8 +2,7 @@
 @font-face{
     font-family:nuevo;
     font-style:normal;
-    font-weight:400;
-    src:url(https://stream.nuevodevel.com/vdjs/v11.0.0/fonts/jwlike/nuevo.woff) format("woff")
+    font-weight:400;src:url(https://stream.nuevodevel.com/vdjs/v11.0.0/fonts/jwlike/nuevo.woff) format("woff")
 }
 
 .video-js::-moz-focus-inner,

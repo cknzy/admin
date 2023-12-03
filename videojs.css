@@ -1476,9 +1476,7 @@ body.vjs-full-window{
     border-radius:10%;
     cursor:pointer;
     display:block;
-}
-
-.filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
+    filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
     height:80px;
     left:50%;
     opacity:1.

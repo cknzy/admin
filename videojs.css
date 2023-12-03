@@ -1342,24 +1342,26 @@ body.vjs-full-window{
     visibility:visible
 }
 
-.video-js .vjs-big-button{
+.video-js .vjs-big-play-button{
+    -webkit-border-radius:10%;
+    border-radius:10%;
     cursor:pointer;
     display:block;
-    margin:0;
-    opacity:0;
-    padding:0;
-    pointer-events:none;
+    -webkit-filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
+    filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
+    height:80px;left:50%;
+    opacity:1;
+    pointer-events:auto;
     position:absolute;
-    text-shadow:none;
-    top:50%;
-    -webkit-transform:translate(-50%,-50%);
-    transform:translate(-50%,-50%);
-    -webkit-transition:visibility 0s,opacity .4s ease;
-    transition:visibility 0s,opacity .4s ease;
-    visibility:hidden;
-    width:auto;
-    z-index:3
-}
+    text-align:center;top:50%;
+    -webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);
+    -webkit-transition:op
+    acity .4s;transition:opacity .4s;visibility:visible;
+    width:80px;
+    z-index:3;
+    z-index:5
+}        
+
 
 .video-js .vjs-b-r-b{
     left:30%
@@ -1379,11 +1381,7 @@ body.vjs-full-window{
     font-size:40px
 }
 
-.video-js .vjs-b-f-b span,
-.video-js .vjs-b-r-b span{
-    bottom:5px;
-    font-family:Arial,sans-serif;
-    font-size:16px;
+.video-jt-size:16px;
     font-weight:400;
     position:absolute
 }

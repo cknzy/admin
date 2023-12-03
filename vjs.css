@@ -1934,9 +1934,9 @@ body.vjs-full-window{
     border-radius:4px;
     float:right;
     font-family:Arial,sans-serif;
-    font-size:12px;
+    font-size:22px;
     line-height:1em;
-    padding:5px;
+    padding:0px;
     pointer-events:none;
     position:relative;
     top:-3em;

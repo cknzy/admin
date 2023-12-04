@@ -623,34 +623,30 @@ body.vjs-pip-window .video-js {
 }
 
 .video-js .vjs-big-play-button {
-   -webkit-border-radius:10%
-    border-radius:10%;
-    cursor:pointer;
-    display:block;
-    -webkit-filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
-    filter:drop-shadow(1px 2px 4px rgba(0,0,0,.5));
-    height:80px;
-    left:50%;
-    opacity:1.
-    pointer-events:auto;
-    position:absolute;
-    text-align:center;
-    top.:50%;
-    -webkit-transform:translate(-50%,-50%);
-    transform:translate(-50%,-50%);
-    -webkit-transition:opacity .4s;
-    transition:opacity .4s;
-    visibility:visible;
-    width:80px;
-    z-index:3;
-    z-index:5
+   top: 50%;
+    left: 50%;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: -40px;
+    display: block;
+    position: absolute;
+    padding: 0;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s
+}
+.video-js .vjs-big-play-button:before {
+    display: block;
+    height: 80px;
+    width: 80px;
+    background-color: white;
 }
 
-.video-js .vjs-big-play-button:before{
-    content:"\f101";
-    font-family:nuevo;
-    font-size:80px
-}
 .video-js:hover .vjs-big-play-button
   border-color: #fff;
   background-color: #73859f;

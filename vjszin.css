@@ -640,25 +640,25 @@ body.vjs-pip-window .video-js {
     -o-transition: all .4s;
     transition: all .4s
 }
-.video-js .vjs-big-play-button:before {
-    display: block;
-    height: 80px;
-    width: 80px;
-    background-color: white;
-}
-
-.video-js:hover .vjs-big-play-button
-  border-color: #fff;
-  background-color: #73859f;
-  background-color: rgba(115, 133, 159, 0.5);
-  transition: all 0s;
+.video-js .vjs-big-play-button:focus,
+.video-js:hover .vjs-big-play-button {
+    outline: 0;
+    border-color: #fff;
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -o-transition: all 0s;
+    transition: all 0s
 }
 
 .vjs-controls-disabled .vjs-big-play-button,
+.vjs-error .vjs-big-play-button,
 .vjs-has-started .vjs-big-play-button,
-.vjs-using-native-controls .vjs-big-play-button,
-.vjs-error .vjs-big-play-button {
-  display: none;
+.vjs-using-native-controls .vjs-big-play-button {
+    display: none!important
+}
+
+.vjs-has-started.vjs-paused.vjs-show-big-play-button-on-pause .vjs-big-play-button {
+    display: block
 }
 
 .vjs-has-started.vjs-paused.vjs-show-big-play-button-on-pause .vjs-big-play-button {

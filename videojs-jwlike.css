@@ -312,7 +312,7 @@ body.vjs-full-window{height:100%;margin:0;padding:0;padding-top:0!important;widt
 
 .vjs-has-mouse .vjs-control-text{clip:auto;background-color:#fff;border:0;color:#000;display:block;font-family:Arial,sans-serif;font-size:11px;left:50%;line-height:22px;opacity:0;padding:0 5px;text-shadow:none;top:-10px;-webkit-transform:translate(-50%);transform:translate(-50%);-webkit-transition:opacity .3s,top .3s;transition:opacity .3s,top .3s;visibility:hidden;white-space:nowrap;width:auto;z-index:2}
 
-.vjs-control-text:after{background-color:#fff;border-radius:1px;content:"";display:block;height:14px;left:50%;pointer-events:none;position:absolute;top:100%;-webkit-transform:translate(-50%,-50%) rotate(45deg);transform:translate(-50%,-50%) rotate(45deg);-webkit-transform-origin:75% 50%;transform-origin:75% 50%;width:14px;z-index:-1}
+.vjs-control-text:after{background-color:#000;border-radius:1px;content:"";display:block;height:14px;left:50%;pointer-events:none;position:absolute;top:100%;-webkit-transform:translate(-50%,-50%) rotate(45deg);transform:translate(-50%,-50%) rotate(45deg);-webkit-transform-origin:75% 50%;transform-origin:75% 50%;width:14px;z-index:-1}
 
 .vjs-play-control .vjs-control-text{left:5px;-webkit-transform:translate(0);transform:translate(0)}
 

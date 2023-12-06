@@ -3185,25 +3185,6 @@ button.vjs-seek-to-live-control.vjs-control {
 }
 
 
-/*Play*/
-
-.vjs-icon-play:before,
-.video-js .vjs-play-control:before {
-    content: ' ';
-    -webkit-mask: url(./svg/play.svg);
-    mask: url(./svg/play.svg);
-}
-
-
-/*Pause*/
-
-.vjs-icon-pause:before,
-.video-js .vjs-play-control.vjs-playing:before {
-    content: ' ';
-    -webkit-mask: url(./svg/pause.svg);
-    mask: url(./svg/pause.svg);
-}
-
 
 /*Volume*/
 

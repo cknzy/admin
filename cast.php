@@ -1,0 +1,2 @@
+.drama_cast_list{display:grid;grid-template-columns:repeat(auto-fill,320px);list-style:none;margin:0 0 1.6875rem}.drama_cast_list li{margin-bottom:10px}.drama_cast_list img{border-radius:10%;margin:5px 10px;width:100px}.drama_cast_name{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:block;font-weight:700}.drama_cast_character{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:block}.drama_cast_character:active{position:relative;overflow:visible;z-index:10}
+.drama_cast_role{font-size:14px;color:grey}
